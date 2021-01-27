@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: rgb(224, 240, 243);
+    
     font-family: sans-serif;
 }
 .menu{
@@ -10,11 +10,21 @@ body{
     justify-content: space-between;
     
 }
+.menu p{
+    color: white;  
+    margin-left: 5px;  
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    
+}
 .menu img{
     width:35px;
     height: 35px;
     padding-left: 10px;
     padding-top: 5px;
+    
 }
 .menu ul {
     list-style-type: none;
@@ -62,10 +72,10 @@ body{
     height: 300px;
     width: 300px;
     border: 5px solid blue;
-    margin-left: 40px;
-    margin-top: 20px ;
+    margin: 40px;
     
 }
+
 .content{
     width: 65%;
 }
@@ -77,6 +87,9 @@ body{
     margin-left: 50px;
     color:rgb(6, 10, 248);
 }
+.profile h4{
+    margin-left: 15px;
+}
 .body-content p{
     line-height: 25px;
 }
@@ -85,6 +98,32 @@ body{
 }
 .profile p{
     margin-left: 15px;
+}
+button {
+    background: green;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 25px;
+}
+.button1{
+    margin-left: 45px;
+}
+.button1:hover{
+    color: blue;
+    background:orange;
+ 
+}
+.button2:hover{
+    color: blue;
+    background:orange;
 }
 .footer{
     background: rgb(158, 157, 157);
@@ -98,7 +137,38 @@ body{
 .footer a {
     padding: 10px;
     color:black;
-    font-size: 30px;
+    
+}
+.fb a:hover{
+    color:white;
+    background: blue;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+.isg a:hover{
+    color:white;
+    background: pink;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+.tlg a:hover{
+    color:white;
+    background: blue;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+.twt a:hover{
+    color:white;
+    background: blue;
+    border-radius: 50px;
+    width: 15px;
+    height: 15px;
+}
+.project{
+    background: rgb(224, 240, 243);
 }
 .project1 h2{
     background: rgb(55, 167, 211);
@@ -121,11 +191,98 @@ body{
 .left, .right{
     width: 50%;
     margin-left: 30px;
+    
 }
 .container img{
     width: 100%;
     height: 400px;
 }
+ 
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    width: 100%;
+    margin-left: -10px;
+}
+.contact_imformation
+{
+    width: 30%;
+    background: rgba(19, 63, 104, 0.158);
+    border-radius: 25px;
+}
+
+.contect-left{
+    margin: 20px;
+}
+.contect-left h3{
+    background: rgba(10, 116, 158, 0.548);
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+}
+.contect-left p{
+    line-height: 25px;
+}
+.body-container{
+    width: 60%;
+}
+.container-form{
+    background:rgba(85, 73, 247, 0.212);
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+.container-form h3{
+    background: rgb(96, 169, 230);
+    padding: 10px;
+    text-align: center;
+    width: 96%;
+    border-radius: 25px;
+    color: white;
+}
+input{
+    margin: 5px 0;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+input[type=email],input[type=number]{
+    width: 98.5%;
+    outline: none;
+    border: none;
+}
+input[type=text],input[type=submit], input[type=reset]{
+    width: 49%;
+    outline: none;
+    border: none;
+    
+}
+input[type=submit]{
+    background: rgba(8, 115, 134, 0.603);
+    border-radius: 15px;
+    color: white;
+}
+input[type=reset]{
+    background: rgba(52, 182, 182, 0.781);
+    border-radius: 15px;
+    color: white;
+}
+.google_map{
+    margin: 35px;
+    
+    
+}
+.google_map h4{
+    background: rgba(13, 30, 179, 0.466);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
 
 
 
