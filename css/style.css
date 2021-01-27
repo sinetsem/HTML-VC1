@@ -39,14 +39,20 @@ body{
     background-color: #111;
 }
 .body-content{
-    margin-top: 20px;
+    margin: 30px;
     display: flex;
     justify-content: space-between;
     width: 100%;
+   
     
 }
 .profile{
     width: 30%;
+    background: rgb(163, 175, 243);
+    border-radius: 25px;
+    
+    border: 5px solid rgb(4, 4, 134);
+    
     
 }
 .profile img{
@@ -56,7 +62,8 @@ body{
     height: 300px;
     width: 300px;
     border: 5px solid blue;
-    margin-left: 30px;
+    margin-left: 40px;
+    margin-top: 20px ;
     
 }
 .content{
@@ -67,11 +74,17 @@ body{
     color: blue;
 }
 .profile h3{
-    margin-left: 40px;
-    color: blue;
+    margin-left: 50px;
+    color:rgb(6, 10, 248);
+}
+.body-content p{
+    line-height: 25px;
+}
+.body-content li{
+    line-height: 25px;
 }
 .profile p{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .footer{
     background: rgb(158, 157, 157);
