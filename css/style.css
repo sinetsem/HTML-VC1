@@ -46,8 +46,81 @@ body{
 }
   
 .menu li a:hover {
-    background-color: #111;
+    background-color: rgb(85, 187, 218);
 }
+.home img{
+    width: 100%;
+    height: 400px;
+}
+
+   
+   
+/* Home page */
+.homepage{
+   display: flex;
+   margin-top: -250px;
+   margin-left: 50px;
+  
+}
+.icon{
+    width: 60%;
+    background: rgb(85, 41, 245);
+    padding: 30px;
+    color: white;
+    height: 300px;
+    border-top-left-radius: 25px;
+}
+.icon i{
+    display: block;
+    padding: 5px;
+    
+}
+.icon_link img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    margin-top: 30px;
+    
+}
+
+
+.profile_picture {
+    width: 40%;
+    margin-right: 50px;
+   
+    
+}
+.profile_picture img{
+    height: 360px;
+    border-top-right-radius: 25px;
+}
+.get_information{
+    background: rgb(36, 64, 192);
+    width: 92.5%;
+    margin-left: 50px;
+    color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 30px;
+    
+    
+}
+.get_information .get_style{
+    padding: 5px;
+    margin-right: 50px;
+    
+}
+.get_style p{
+    line-height: 25px;
+}
+.get_style .button_style{
+    justify-content: center;
+    display: flex;
+}
+
+/* Resume */
+
 .body-content{
     margin: 30px;
     display: flex;
@@ -83,6 +156,15 @@ body{
     border-bottom: 1px solid black;
     color: blue;
 }
+.download{
+    background: rgb(2, 19, 252);
+    padding: 10px;
+    border-radius: 10px;
+}
+.download a{
+    text-decoration: none;
+    color: white;
+}
 .profile h3{
     margin-left: 50px;
     color:rgb(6, 10, 248);
@@ -90,7 +172,7 @@ body{
 .profile h4{
     margin-left: 15px;
 }
-.body-content p{
+.profile p{
     line-height: 25px;
 }
 .body-content li{
@@ -112,9 +194,10 @@ button {
     cursor: pointer;
     margin: 10px;
     border-radius: 25px;
+    
 }
 .button1{
-    margin-left: 45px;
+    margin-left: 70px;
 }
 .button1:hover{
     color: blue;
@@ -126,13 +209,12 @@ button {
     background:orange;
 }
 .footer{
-    background: rgb(158, 157, 157);
+    background: black;
     padding: 10px;
 }
 .footer{
-    align-items: center;
-    justify-content:center ;
-    display: flex;
+    
+    display: block;
 }
 .footer a {
     padding: 10px;
@@ -167,8 +249,52 @@ button {
     width: 15px;
     height: 15px;
 }
+.menu_footer, .icon_footer{
+    align-items: center;
+    justify-content:center ;
+    display: flex;
+}
+.icon_footer img{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.menu_footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu_footer li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer_class{
+    background: green;
+    display: flex;
+    
+}
+.footer_class a{
+    padding: 2px;
+    
+}
+.footer_class{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_class p{
+    font-size: 10px;
+    color: white;
+}
+
+/* Project */
+
 .project{
     background: rgb(224, 240, 243);
+    
 }
 .project1 h2{
     background: rgb(55, 167, 211);
@@ -183,21 +309,27 @@ button {
     justify-content: space-evenly;
 }
 .project1 img{
-    width: 500px;
+    width: 100%;
     height: 300px;
-    margin-left: 55px;
+    
     
 }
-.left, .right{
-    width: 50%;
-    margin-left: 30px;
+.left,.right{
+    width: 47%;
     
+    
+}
+.project1 p{
+    line-height: 20px;
 }
 .container img{
     width: 100%;
     height: 400px;
 }
- 
+
+
+/* Contact */
+
 .container-fluid{
     display: flex;
     justify-content: space-evenly;
@@ -224,6 +356,14 @@ button {
 }
 .contect-left p{
     line-height: 25px;
+}
+.contect-left .icon_link img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    
+    
 }
 .body-container{
     width: 60%;
@@ -282,6 +422,65 @@ input[type=reset]{
     text-align: center;
     color: white;
 }
+/* EDUCATION */
+
+.container-bg img{
+    width: 100%;
+    height: 400px;
+}
+.bg-ed img{
+    width: 300px;
+    height: 200px;
+    
+}
+.bg-ed {
+    display: flex;
+    margin: 40px;
+}
+.background{
+    
+    padding: 10px;
+
+}
+.education{
+    background: rgba(19, 52, 238, 0.205);
+}
+.background h4{
+    background: rgba(81, 181, 221, 0.486);
+    padding: 20px;
+    margin-bottom: 0px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    
+    
+    
+}
+.background p{
+    background: rgba(56, 167, 231, 0.829);
+    padding: 10px;
+    height: 100px;
+    margin-top: -4px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+.container-bg {
+    position: relative;
+    text-align: center;
+    color: blue;
+  }
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  main h3{
+      background: rgb(52, 193, 228);
+      padding: 10px;
+      text-align: center;
+      margin-top: -5px;
+  }
 
 
 
