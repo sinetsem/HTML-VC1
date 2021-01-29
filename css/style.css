@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    
+    background: rgb(224, 240, 243);
     font-family: sans-serif;
 }
 .menu{
@@ -212,13 +212,11 @@ button {
     background: black;
     padding: 10px;
 }
-.footer{
-    
-    display: block;
-}
+
 .footer a {
     padding: 10px;
     color:black;
+    display: block;
     
 }
 .fb a:hover{
@@ -301,6 +299,8 @@ button {
     padding: 10px;
     margin: 0;
     text-align: center;
+    width: 100%;
+    margin: auto;
 }
 .body-project1{
     width: 100%;
@@ -326,7 +326,15 @@ button {
     width: 100%;
     height: 400px;
 }
-
+.left .background h2{
+    width: 614px;
+}
+.right .background h2{
+    width: 614px;
+}
+.project1 .bg{
+    width: 94%;
+}
 
 /* Contact */
 
@@ -340,7 +348,7 @@ button {
 .contact_imformation
 {
     width: 30%;
-    background: rgba(19, 63, 104, 0.158);
+    background: rgba(25, 188, 238, 0.158);
     border-radius: 25px;
 }
 
@@ -348,7 +356,7 @@ button {
     margin: 20px;
 }
 .contect-left h3{
-    background: rgba(10, 116, 158, 0.548);
+    background: rgba(19, 63, 104, 0.158);
     padding: 10px;
     text-align: center;
     border-radius: 25px;
@@ -417,7 +425,7 @@ input[type=reset]{
     
 }
 .google_map h4{
-    background: rgba(13, 30, 179, 0.466);
+    background: rgba(10, 192, 216, 0.938);
     padding: 10px;
     text-align: center;
     color: white;
@@ -427,60 +435,125 @@ input[type=reset]{
 .container-bg img{
     width: 100%;
     height: 400px;
+    margin-bottom: 25px;
+    
+}
+.bg-ed{
+    width: 90%;
+    
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+    justify-content: space-between;
 }
 .bg-ed img{
-    width: 300px;
-    height: 200px;
-    
+    width: 600px;
+    height: 300px;
+   
 }
-.bg-ed {
-    display: flex;
-    margin: 40px;
-}
-.background{
-    
-    padding: 10px;
-
-}
-.education{
-    background: rgba(19, 52, 238, 0.205);
-}
-.background h4{
-    background: rgba(81, 181, 221, 0.486);
-    padding: 20px;
-    margin-bottom: 0px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    
-    
-    
-}
+.one,.two, .three,.four{
+    width: 48%;
+}   
 .background p{
-    background: rgba(56, 167, 231, 0.829);
-    padding: 10px;
-    height: 100px;
-    margin-top: -4px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
+    line-height: 20px;
+    
+    
     
 }
-.container-bg {
-    position: relative;
+.background h2{
+    background: rgb(62, 188, 226);
+    width: 580px;
+    padding: 10px;
+    margin: 0;
     text-align: center;
-    color: blue;
-  }
-  .centered {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  main h3{
-      background: rgb(52, 193, 228);
-      padding: 10px;
-      text-align: center;
-      margin-top: -5px;
-  }
+    
+}
+main h3{
+    background: rgb(45, 174, 235);
+}
+/* @mdia menu */
+@media(max-width:600px){
+    .menu {
+        width:100%;
+        display: block;
+        
+      }
+    .menu ul li  {
+        width:100%;
+        float:none;
+    }
+    .menu ul li a {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .menu img,.logo_name{
+        display: none;
+    
+       
+    }
+    
+    
+}
+/* @media home */
+@media(max-width:600px){
+    .homepage{
+        display: block;
+        width: 100%;
+        margin-top:0px;
+        margin-left: 0px;
+        
+
+    }
+    .icon{
+        width: 100%;
+        border-top-left-radius: 0;
+    }
+    .profile_picture img{
+        border-top-right-radius: 0;
+
+    }
+    .profile_picture {
+        width: 100%;
+        
+    }
+    .get_information{
+        background: rgb(36, 64, 192);
+        width: 100%;
+        margin-left: 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        
+    
+    }
+    /* botton */
+    .footer{
+        display: block;
+        margin-top: -30px;
+    }
+    .icon_footer img{
+        display: none;
+    }
+    .menu_footer {
+        
+        display: block;
+        
+      }
+    .menu_footer ul li  {
+        width:100%;
+        
+    }
+    
+    
+  
+    
+        
+}
+
+
 
 
 
