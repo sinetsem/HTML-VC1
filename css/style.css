@@ -48,84 +48,40 @@ body{
 .menu li a:hover {
     background-color: rgb(85, 187, 218);
 }
-.home img{
-    width: 100%;
-    height: 400px;
-}
 
-   
    
 /* Home page */
+.home img{
+    width: 100%;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
 .homepage{
-   display: flex;
-   margin-top: -250px;
-   margin-left: 50px;
-  
+    
+    
+    margin-top: -480px;
+    float: right;
+    margin-right: 100px;
+    
 }
-.icon{
-    width: 60%;
-    background: rgb(85, 41, 245);
-    padding: 30px;
-    color: white;
-    height: 300px;
-    border-top-left-radius: 25px;
-}
-.icon i{
+.homepage .icon i{
     display: block;
     padding: 5px;
-    
+    color: white;   
 }
-.icon_link img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin: 5px;
-    margin-top: 30px;
-    
-}
-
-
-.profile_picture {
-    width: 40%;
-    margin-right: 50px;
-   
-    
-}
-.profile_picture img{
-    height: 360px;
-    border-top-right-radius: 25px;
-}
-.get_information{
-    background: rgb(36, 64, 192);
-    width: 92.5%;
-    margin-left: 50px;
+.homepage .icon .text_name,.text_position{
     color: white;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    margin-bottom: 30px;
-    
-    
-}
-.get_information .get_style{
-    padding: 5px;
-    margin-right: 50px;
-    
-}
-.get_style p{
-    line-height: 25px;
-}
-.get_style .button_style{
-    justify-content: center;
-    display: flex;
 }
 
-/* Resume */
+   
+
+
 
 .body-content{
     margin: 30px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
    
     
 }
@@ -146,6 +102,7 @@ body{
     width: 300px;
     border: 5px solid blue;
     margin: 40px;
+
     
 }
 
@@ -185,29 +142,22 @@ button {
     background: green;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 62px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    
+    font-size: 14px;
     cursor: pointer;
     margin: 10px;
     border-radius: 25px;
-    
 }
-.button1{
-    margin-left: 70px;
-}
-.button1:hover{
+
+.button1:hover,.button2:hover{
     color: blue;
     background:orange;
  
 }
-.button2:hover{
-    color: blue;
-    background:orange;
-}
+
 .footer{
     background: black;
     padding: 10px;
@@ -299,8 +249,8 @@ button {
     padding: 10px;
     margin: 0;
     text-align: center;
-    width: 100%;
     margin: auto;
+    color:blue;
 }
 .body-project1{
     width: 100%;
@@ -327,10 +277,12 @@ button {
     height: 400px;
 }
 .left .background h2{
-    width: 614px;
+    width: 97%;
+    color: white;
 }
 .right .background h2{
-    width: 614px;
+    width: 97%;
+    color: white;
 }
 .project1 .bg{
     width: 94%;
@@ -440,16 +392,13 @@ input[type=reset]{
 }
 .bg-ed{
     width: 90%;
-    
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-   
-    
     justify-content: space-between;
 }
 .bg-ed img{
-    width: 600px;
+    width: 100%;
     height: 300px;
    
 }
@@ -458,26 +407,25 @@ input[type=reset]{
 }   
 .background p{
     line-height: 20px;
-    
-    
-    
+       
 }
 .background h2{
     background: rgb(62, 188, 226);
-    width: 580px;
+    
     padding: 10px;
     margin: 0;
     text-align: center;
     
 }
 main h3{
-    background: rgb(45, 174, 235);
+    background: rgba(5, 151, 144, 0.568);
 }
 /* @mdia menu */
 @media(max-width:600px){
     .menu {
         width:100%;
         display: block;
+        background:rgb(26, 155, 194);
         
       }
     .menu ul li  {
@@ -495,64 +443,142 @@ main h3{
     
        
     }
-    
-    
-}
-/* @media home */
-@media(max-width:600px){
-    .homepage{
-        display: block;
+    /* home page */
+    .home{
         width: 100%;
-        margin-top:0px;
-        margin-left: 0px;
-        
-
     }
-    .icon{
+    .home img{
+        margin-bottom: 480px;
+    }
+    .homepage {
+        background: rgb(77, 47, 247);
+       
         width: 100%;
-        border-top-left-radius: 0;
-    }
-    .profile_picture img{
-        border-top-right-radius: 0;
-
-    }
-    .profile_picture {
-        width: 100%;
+        margin-right: 0px; 
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         
     }
-    .get_information{
-        background: rgb(36, 64, 192);
-        width: 100%;
-        margin-left: 0;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
-        
-    
+   
+    .menu_footer .footer_home  {
+        margin-right: -460px;  
+        float: right;   
     }
-    /* botton */
+    
+    
     .footer{
-        display: block;
         margin-top: -30px;
     }
-    .icon_footer img{
+    .footer .icon_footer{
         display: none;
     }
-    .menu_footer {
-        
+    
+
+    .menu_footer ul {
         display: block;
+    }
+    
+    .menu_footer li a{
+        align-items: center;
+        justify-content:center ;
+        display: flex;
+    } 
+    /* resume  */
+    .body-content {
+        margin: 0px;
+        display: block;
+        width: 100%;
+    
         
-      }
-    .menu_footer ul li  {
-        width:100%;
+    }
+    .profile {
+        width: 98%;
+        border-radius:0;
+        
+    }
+    .content{
+        width: 100%;
+        margin-left: 2px;
         
     }
     
-    
-  
-    
+    .download{
         
+        margin-bottom: 40px;
+        width: 95%;  
+    }
+    /* project */
+    .container_project{   
+        width: 100%;
+    }
+    
+    .body-project1{
+        width: 100%;
+        margin-top: 20px;
+        display: block;    
+    }
+    .left,.right{
+        width: 100%;
+    }
+    
+    
+    .project1 .bg{
+        width: 100%;
+    }   
+    /* education */
+    .bg-ed{
+        width: 100%;
+        display: block;
+        margin-left: 0;
+          
+    }
+
+    .one,.two, .three,.four{
+        width: 100%;
+        
+    } 
+    .four{
+        margin-bottom: 50px;
+    }
+    /* contact */
+    .container-fluid{
+        display: block;
+        width: 100%;
+    }
+    .contact_imformation{
+        width: 97%;
+        padding: 5px;
+        margin-left: 12px; 
+        margin-bottom: 40px; 
+    }
+    .body-container{
+        width: 100%;
+        margin-left: 11px; 
+    }
+    .container-form{
+        width: 100%;
+        box-sizing: border-box;
+        height: 100%;
+        
+    }
+    input[type=text],input[type=email],input[type=number],input[type=radio],input[type=submit],input[type=reset]{
+        width: 100%;
+    }
+    .google_map{
+        width: 100%;
+        margin-left: 0;
+    }
+  
+   
 }
 
+
+
+
+    
+    
 
 
 
